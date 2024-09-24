@@ -1,0 +1,50 @@
+.game-container {
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.difficultyButton-container button {
+    width: 200px;
+    height: 30px;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.difficultyButton-container button.active {
+    border: 2px solid black;
+}
+
+#easy {
+    background-color: rgb(10, 223, 10);
+}
+
+#medium {
+    background-color: orange;
+}
+
+#hard {
+    background-color: red;
+}
+
+.Text-container button {
+    margin-bottom: 20px;
+}
+
+.Text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 80px;
+}
